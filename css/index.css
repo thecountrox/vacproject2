@@ -1,0 +1,91 @@
+/* STUFF*/
+@font-face {
+    font-family: 'Inter';
+    src: url(./resources/Inter-Medium.ttf);
+}
+
+/* left */
+
+.left h1 {
+    color: #f8f8ff;
+    margin:auto;
+    vertical-align: auto; 
+}
+
+.left ul {
+  color: #50fa7b;
+}
+
+.left a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.left a {
+  color: #50fa7b;
+}
+/* RIGHT */
+body {
+    background-color: #282a36;
+    color: #f8f8ff;
+}
+
+.content {
+    margin: 0 auto;
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+}
+
+ .top { 
+   margin: 0px; 
+   padding: 0px; 
+   box-sizing: border-box;
+ } 
+ .top .container{ 
+   height: 60vh;
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+  
+ }
+ .top .heading { 
+    width: 150px;
+    height: 100px;
+    color: #fffafa; 
+    font-size: 80sp;
+ } 
+
+ .top body { 
+     background-color: #282a36; 
+ }
+
+/* commands */
+.commands .content ul {
+  font-size: 15px;
+}
+
+.commands li {
+  margin-bottom: 10px;
+
+}
+.commands .line {
+  width: 100px;
+  height: 20px;
+  border-bottom: 1px solid #ffb86c;
+  position: absolute;
+}
+
+.commands .content #heading {
+  color: #ffb86c;	
+}
+
+table {
+  background-color: #282a36;
+}
+
+th {
+  background-color: #bd93f9;
+}
